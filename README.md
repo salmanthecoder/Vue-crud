@@ -11,27 +11,18 @@ The stack is built using [vue-cli webpack](https://github.com/vuejs-templates/we
 
 ``` bash
 # install dependencies
-> yarn install
+> npm install
 # serve with hot reload at localhost:8080
-> yarn serve
+> npm run serve
 ```
 
 Other commands available are:
 
 ``` bash
 # build for production with minification
-yarn run build
+npm run build
 
 # run unit tests
-yarn test
+npm run test
 ```
 
-## To know
-
-Current arbitrary choices are:
-
-- Vuex modules for store
-- Vue-axios for ajax requests
-- 'rwv' as prefix for components
-
-These can be changed when the contributors reach a consensus.
